@@ -39,6 +39,9 @@ public extension UIDevice {
         case 2688:
             // iPhone X Max
             return true
+        case 2532:
+            // iPhone 12 Pro
+            return true
         case 2778:
             // iPhone 12 Pro Max
             return true
@@ -73,6 +76,9 @@ public extension UIDevice {
             return false
         case 2436:
             // iPhone X, iPhone XS
+            return false
+        case 2532:
+            // iPhone 12 Pro
             return false
         case 2688:
             // iPhone X Max
